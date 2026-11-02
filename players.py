@@ -17,13 +17,6 @@ class Player(ABC):
     @abstractmethod
     def get_move(self, game: Connect4Game) -> int:
         """Return a valid, zero-indexed column for this player to play."""
-    
-    def get_valid_moves(self, game : Connect4Game):
-        moves = []
-        for column in range(COLUMNS):
-            if game.is_valid_move(column):
-                moves.append(column)
-        return moves
 
 
 class HumanPlayer(Player):
