@@ -1,9 +1,9 @@
 """Command line interface for Connect 4."""
 
-from core import COLUMNS, Connect4Game
-from players import HumanPlayer, Player
-from models.random_agent import RandomModel
-from models.minimax_agent import MinimaxModel
+from connect4.core import COLUMNS, Connect4Game
+from connect4.players import HumanPlayer, Player
+from connect4.models.random_agent import RandomModel
+from connect4.models.minimax_agent import MinimaxModel
 
 RESET = "\033[0m"
 PIECE_COLOURS = {"X": "\033[91m", "O": "\033[93m"}  # bright red, bright yellow

@@ -1,8 +1,8 @@
-from players import Player
+from connect4.players import Player
 import math
 
 class MinimaxModel(Player):
-    DEPTH = 8
+    DEPTH = 9
     WIN_SCORE = 999
     CENTRE_OUT_MOVES = [3, 2, 4, 1, 5, 0, 6]
 

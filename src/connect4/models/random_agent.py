@@ -1,4 +1,4 @@
-from players import Player
+from connect4.players import Player
 import random
 
 class RandomModel(Player):

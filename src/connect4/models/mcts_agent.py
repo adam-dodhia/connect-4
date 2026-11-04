@@ -10,7 +10,7 @@ can be measured incrementally instead of landing all at once.
 import math
 import random
 
-from players import Player
+from connect4.players import Player
 
 
 def _other(symbol: str) -> str:

@@ -6,7 +6,7 @@ only `get_move` needs to be implemented.
 
 from abc import ABC, abstractmethod
 
-from core import COLUMNS, Connect4Game
+from connect4.core import COLUMNS, Connect4Game
 
 
 class Player(ABC):
